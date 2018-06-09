@@ -20,5 +20,12 @@ client.on('message', message => {
 	}
 });
 
+client.on('message', message => {
+	if (message.author === client.user) return;
+	if (message.content.startsWith(prefix + 'ayy')) {
+		message.channel.sendMessage('lmao :alien:');
+	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
