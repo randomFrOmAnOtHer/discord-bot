@@ -5,9 +5,7 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-client.user.setPresence(with ur mommy 8===========D);
-
-
+client.user.setGame('with ur mommy 8==============D')
 
 var prefix = "!"
 client.on('message', message => {
