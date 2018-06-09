@@ -9,7 +9,7 @@ var prefix = "!"
 client.on('message', message => {
 	if (message.author === client.user) return;
 	if (message.content.startsWith(prefix + 'ping')) {
-		message.channel.sendMessage('Pong');
+		message.channel.sendMessage(`Pong! \`${Date.now() - message.createdTimestamp} \``);
 	}
 });
 
