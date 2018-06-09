@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-bot.user.setGame(with your mommy 8===========D)
+bot.user.setStatus(with your mommy 8===========D)
 
 client.on('ready', () => {
     console.log('I am ready!');
