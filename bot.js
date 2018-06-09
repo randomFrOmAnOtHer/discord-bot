@@ -5,6 +5,10 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
+client.user.setPresence(with ur mommy 8===========D);
+
+
+
 var prefix = "!"
 client.on('message', message => {
 	if (message.author === client.user) return;
