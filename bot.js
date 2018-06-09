@@ -15,7 +15,7 @@ client.on('message', message => {
 
 client.on('message', message => {
 	if (message.author === client.user) return;
-	if (message.content.startsWith(prefix + 'invite')) {
+	if (message.content.startsWith(prefix + 'botinvite')) {
 		message.channel.sendMessage('https://discordapp.com/oauth2/authorize/?permissions=2146958591&scope=bot&client_id=454681676929564672');
 	}
 });
